@@ -2,14 +2,13 @@ package com.example.demo.entity;
 
 
 import jakarta.persistence.*;
+@entity
 
 public class Student{
     private long id;
     private String name;
     private String email;
     private Float cgpa;
-
-
     public long getId(){
         return id;
     }
