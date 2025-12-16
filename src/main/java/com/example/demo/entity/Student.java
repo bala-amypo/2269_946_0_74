@@ -6,7 +6,7 @@ import jakarta.persistence.*;
 
 public class Student{
     @id
-    @GenerateValue(Strategy=GenerationType.)
+    @GenerateValue(Strategy=GenerationType.IDENTITY)
     private long id;
     private String name;
     private String email;
