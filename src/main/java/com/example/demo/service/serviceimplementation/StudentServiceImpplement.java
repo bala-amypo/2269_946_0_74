@@ -1,5 +1,5 @@
 
-package com.example.demo.service;
+package com.example.demo.service.serviceimplementation;
 
 import java.util.List;
 
@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.example.demo.entity.Student;
 import com.example.demo.repository.StudentRepository;
+import com.example.demo.service.StudentService;
 
 @Service
 public class StudentServiceImplement implements StudentService {
