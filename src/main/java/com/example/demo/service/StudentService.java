@@ -1,3 +1,8 @@
 package com.example.demo.service;
+import java.util.*;
+import com.example.demo.entity.Student;
 
-public Interface 
+public interface StudentService{
+    Student createData(Student stu);
+    List<Student> fetchRecord();
+}
