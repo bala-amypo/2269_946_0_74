@@ -10,5 +10,9 @@ import com.example.demo.service.Studentservice;
 @Restcontroller
 public class Studentcontroller{
     @Autowired
-    
+    StudentService ser;
+    @PostMapping("/adddata")
+    public Student createData(@RequestBody Student stu){
+        return ser.createData(stu)
+    }
 }
