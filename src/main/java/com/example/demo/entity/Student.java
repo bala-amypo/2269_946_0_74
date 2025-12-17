@@ -26,16 +26,16 @@ public class Student{
     public void setName(String name){
         this.name=name;
     }
-    public String getemail(){
+    public String getEmail(){
         return email;
     }
-    public void setemail(String email){
+    public void setEmail(String email){
         this.email=email;
     }
-    public float getcgpa(){
+    public float getCgpa(){
         return cgpa;
     }
-    public void setcgpa(Float cgpa){
+    public void setCgpa(float Cgpa){
         this.cgpa=cgpa;
     }
     public Student(String name, String email, float cgpa) {
