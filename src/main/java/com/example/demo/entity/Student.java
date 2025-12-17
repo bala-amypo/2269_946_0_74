@@ -35,7 +35,7 @@ public class Student{
     public float getCgpa(){
         return cgpa;
     }
-    public void setCgpa(float Cgpa){
+    public void setCgpa(float cgpa){
         this.cgpa=cgpa;
     }
     public Student(String name, String email, float cgpa) {
