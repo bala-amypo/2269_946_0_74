@@ -2,11 +2,11 @@ package com.example.demo.entity;
 
 
 import jakarta.persistence.*;
-@entity
 
+@Entity
 public class Student{
-    @id
-    @GenerateValue(Strategy=GenerationType.IDENTITY)
+    @Id
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private long id;
     private String name;
     private String email;
@@ -37,10 +37,10 @@ public class Student{
     public void setcgpa(Float cgpa){
         this.cgpa=cgpa;
     }
-    public Student(int id, String stname, String stemail, float cgpa) {
+    public Student( String name, String email, float cgpa) {
         // this.id = id;
-        this.stname = stname;
-        this.stemail = stemail;
+        this.name = name;
+        this.email = email;
         this.cgpa = cgpa;
     }
     public Student() {
